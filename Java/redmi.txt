@@ -1,0 +1,5 @@
+javac TcpJavaServer.java TcpJavaClient.java
+# run server
+java TcpJavaServer
+# in another terminal run client
+java TcpJavaClient
