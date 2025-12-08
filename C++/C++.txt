@@ -1,0 +1,56 @@
+TỐI ƯU HÓA GIAO THỨC TCP TRONG NGÔN NGỮ C++
+
+-------------------------------------------
+1. Tổng quan các phương pháp tối ưu TCP
+-------------------------------------------
+Các phương pháp tối ưu giao thức TCP được áp dụng để:
+- Tăng tốc độ truyền dữ liệu (throughput)
+- Giảm độ trễ (latency)
+- Tăng khả năng xử lý nhiều kết nối
+- Tối ưu sử dụng CPU và tài nguyên hệ thống
+
+Danh sách phương pháp:
+1. TCP_NODELAY (tắt thuật toán Nagle)
+2. Tăng kích thước buffer TCP (SO_SNDBUF / SO_RCVBUF)
+3. Non-blocking socket
+4. Multiplexing (select, poll, epoll)
+5. Zero-copy I/O (sendfile, splice)
+6. SO_REUSEADDR / SO_REUSEPORT
+7. SO_KEEPALIVE
+8. Thread pool / async I/O
+9. Điều chỉnh cửa sổ TCP (TCP Window)
+10. Hỗ trợ TCP Fast Open (TFO)
+
+-------------------------------------------
+2. Tối ưu hóa TCP trong C++
+-------------------------------------------
+C++ sử dụng socket API thấp-level (POSIX hoặc WinSock2),
+vì vậy C++ có khả năng kiểm soát sâu vào giao thức TCP,
+từ đó tối ưu rất hiệu quả.
+
+Các phương pháp khả dụng trong C++:
+
+1. Tắt Nagle:
+   setsockopt(sock, IPPROTO_TCP, TCP_NODELAY, &flag, sizeof(flag));
+
+2. Tăng buffer gửi/nhận:
+   setsockopt(sock, SOL_SOCKET, SO_SNDBUF, &size, sizeof(size));
+
+3. Non-blocking I/O:
+   fcntl(sock, F_SETFL, O_NONBLOCK);
+
+4. Sử dụng epoll để xử lý nhiều kết nối:
+   epoll_create1(0);
+
+5. Zero-copy với sendfile():
+   sendfile(client_fd, file_fd, nullptr, file_size);
+
+6. Cho phép reuse address/port:
+   setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(yes));
+
+7. KeepAlive:
+   setsockopt(sock, SOL_SOCKET, SO_KEEPALIVE, &yes, sizeof(yes));
+
+C++ cũng hỗ trợ Boost.Asio để làm lập trình TCP hiệu quả
+theo hướng async.
+
