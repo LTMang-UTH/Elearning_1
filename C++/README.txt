@@ -8,8 +8,9 @@
 
 3. Cách biên dịch:
 Nếu dùng MinGW (g++):
-    g++ server.cpp -o server -lws2_32
-    g++ client.cpp -o client -lws2_32
+    g++ tcp_server.cpp -o server.exe -lws2_32
+    g++ tcp_client.cpp -o client.exe -lws2_32
+
 
 4. Cách chạy:
     Mở CMD thứ nhất:
