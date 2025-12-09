@@ -1,0 +1,52 @@
+===================================
+HƯỚNG DẪN CHẠY CHƯƠNG TRÌNH TCP PHP
+===================================
+
+1. Yêu cầu:
+- PHP của XAMPP: C:\xampp\php\php.exe
+- Tất cả file đặt trong cùng một thư mục (vd: D:\Lap trinh mang\E1)
+
+File gồm:
+- server.php
+- client.php
+- readmi.txt
+
+-----------------------------------
+2. Chức năng của từng file:
+-----------------------------------
+
+1. server.php
+   - Tạo socket TCP server.
+   - Lắng nghe port 8080.
+   - Chấp nhận kết nối từ client.
+   - Nhận dữ liệu và in ra màn hình.
+
+2. client.php
+   - Gửi dữ liệu đến server.
+   - Thử nghiệm các kỹ thuật tối ưu hóa TCP:
+        ✔ TCP_NODELAY (tắt Nagle)
+        ✔ SO_KEEPALIVE
+        ✔ SO_RCVTIMEO / SO_SNDTIMEO
+        ✔ SO_REUSEADDR
+
+-----------------------------------
+3. Cách chạy
+-----------------------------------
+
+Bước 1: Mở CMD 1 → chạy server:
+C:\xampp\php\php.exe server.php
+
+Bước 2: Mở CMD 2 → chạy client:
+C:\xampp\php\php.exe client.php
+
+Server sẽ hiển thị:
+Client da ket noi!
+Da nhan: <noi dung>
+
+-----------------------------------
+4. Ghi chú:
+- Luôn chạy server trước.
+- Nếu bị lỗi 10061 => chưa có server lắng nghe.
+- Nếu muốn đổi port, sửa ở 2 file.
+
+===================================
