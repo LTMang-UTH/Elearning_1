@@ -1,6 +1,6 @@
 mở 2 terminal cùng lúc
 và chạy 2 lệnh riêng cùng lúc
-node tcp_server.js
-node tcp_client.js
-truy cập:
-http://localhost:9103
+node echo_server.js
+node echo_client.js
+Chạy Chat Server
+node chat_server.js
