@@ -1,0 +1,15 @@
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\bin\Debug\net8.0\EchoServer.exe
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\bin\Debug\net8.0\EchoServer.deps.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\bin\Debug\net8.0\EchoServer.runtimeconfig.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\bin\Debug\net8.0\EchoServer.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\bin\Debug\net8.0\EchoServer.pdb
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.sourcelink.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\refint\EchoServer.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.pdb
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\EchoServer.genruntimeconfig.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\EchoServer\obj\Debug\net8.0\ref\EchoServer.dll

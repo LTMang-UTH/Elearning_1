@@ -1,0 +1,15 @@
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\bin\Debug\net8.0\ChatClient.exe
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\bin\Debug\net8.0\ChatClient.deps.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\bin\Debug\net8.0\ChatClient.runtimeconfig.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\bin\Debug\net8.0\ChatClient.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\bin\Debug\net8.0\ChatClient.pdb
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.sourcelink.json
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\refint\ChatClient.dll
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.pdb
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ChatClient.genruntimeconfig.cache
+C:\Users\DELL\OneDrive\Máy tính\E1\Elearning_1\C#\ChatClient\obj\Debug\net8.0\ref\ChatClient.dll
